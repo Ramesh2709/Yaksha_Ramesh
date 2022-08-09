@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Yaksha Test Suite">
+	<test name="Yaksha BAT Suite">
+		<classes>
+			<class name="com.caiiht.fusion.selenium.controls.BaseSetup" />
+			<!--class name="com.caiiht.fusion.selenium.yaksha.yakshalogin" /--><!--class detail-->
+		    <class name="com.caiiht.fusion.selenium.yaksha.YakshaQuestionBankCreate2"/>
+			<!--class name="com.caiiht.fusion.selenium.yaksha.yakshaUser"/-->
+		</classes>
+	</test>
+</suite>

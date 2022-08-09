@@ -1,0 +1,3 @@
+Category|Title|Description|Instructions|Sections|skills|questiontype|Manual/Automatic|beginner|intermediate|Advance|questions|Tenant|Attempts|passperc|Duration|sufflequestion|showresult|startdate|starttime|Enddate|endtime|executioncount|cutoff|cutofftime|mock|sufflemcq|label1|label2|domain/mail|D/m value|Proctoring Settings|Limitsvalue|preassigment
+AugFullScript|AutoTest Testnew520|This is the sample description for Automation|"•	Instruction1
+•	Instruction3"|Section1|FullScript|MCQ|Manual||||Yes is Answernew,no is Answer,maybe is Answer,none is Answer,all is Answer|Augfullscript|2|1|60|yes|yes|||||0|no|15|no|yes|||domain||Enable,copy,window|3|

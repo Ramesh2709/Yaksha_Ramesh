@@ -1,0 +1,6 @@
+Questiontype|Level|category|Skill|Subskill|Question|option1|option2|option3|option4|option5|option6|Correct values|Hint
+MultipleChoice|Beginner|AugFullScript|FullScript|FullScript|Yes is Answernew|Yes|No|maybe|none|all||1|Maven description
+MultipleChoice|Beginner|AugFullScript|FullScript|FullScript|no is Answer|Yes|No|maybe|none|all||2|Maven description
+MultipleChoice|Beginner|AugFullScript|FullScript|FullScript|maybe is Answer|Yes|No|maybe|none|all||3|Maven description
+MultipleChoice|Beginner|AugFullScript|FullScript|FullScript|none is Answer|Yes|No|maybe|none|all||4|Maven description
+MultipleChoice|Beginner|AugFullScript|FullScript|FullScript|all is Answer|Yes|No|maybe|none|all||5|Maven description

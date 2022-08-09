@@ -1,0 +1,289 @@
+<html>
+<head>
+<title>TestNG:  Yaksha BAT Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Yaksha BAT Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 09 09:33:46 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>386 seconds (386734 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaQuestionBankCreate2.YQuestionbankcreate()'><b>YQuestionbankcreate</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaQuestionBankCreate2<br/>
+<a href="#Output-1181497822" onClick='toggleBox("Output-1181497822", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1181497822" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1181497822">
+Augfullscriptqb1 Question Bank not Created.<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Augfullscriptqb1 Question Bank not Created.
+	at com.caiiht.fusion.selenium.yaksha.YakshaQuestionBankCreate2.YQuestionbankcreate(YakshaQuestionBankCreate2.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1181497822", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1181497822'><pre>java.lang.AssertionError: Augfullscriptqb1 Question Bank not Created.
+	at org.testng.Assert.fail(Assert.java:110)
+	at com.caiiht.fusion.selenium.yaksha.YakshaQuestionBankCreate2.YQuestionbankcreate(YakshaQuestionBankCreate2.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>23</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaQuestionBankCreate2@4bef0fe3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.controls.BaseSetup.launchBrowser()'><b>launchBrowser</b><br>Test class: com.caiiht.fusion.selenium.controls.BaseSetup</td>
+<td></td>
+<td>4</td>
+<td>com.caiiht.fusion.selenium.controls.BaseSetup@18230356</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaAssessment.YAssessmentQuestionAdd()'><b>YAssessmentQuestionAdd</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaAssessment<br/>
+<a href="#Output-2130118320" onClick='toggleBox("Output-2130118320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2130118320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2130118320">
+Section1 Question section added for Assessment 'AutoTest Testnew520'<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaAssessment@27953a83</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.yakshaUser.YUserLogin()'><b>YUserLogin</b><br>Test class: com.caiiht.fusion.selenium.yaksha.yakshaUser</td>
+<td></td>
+<td>40</td>
+<td>com.caiiht.fusion.selenium.yaksha.yakshaUser@556d0826</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaAssessment.YAssessmentcreate()'><b>YAssessmentcreate</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaAssessment<br/>
+<a href="#Output-722999505" onClick='toggleBox("Output-722999505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722999505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722999505">
+AutoTest Testnew520:Assesment created as draft<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaAssessment@27953a83</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaAssessment.YAssessmentPublish()'><b>YAssessmentPublish</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaAssessment<br/>
+<a href="#Output-1619640803" onClick='toggleBox("Output-1619640803", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1619640803" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1619640803">
+AutoTest Testnew520:Assesment published<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaAssessment@27953a83</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaAssessment.YAssessmentTenent()'><b>YAssessmentTenent</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaAssessment<br/>
+<a href="#Output-1413620105" onClick='toggleBox("Output-1413620105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1413620105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1413620105">
+×
+Assessment assigned successfully<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaAssessment@27953a83</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate.YQuestioncreate()'><b>YQuestioncreate</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate<br/>
+<a href="#Output-1650828616" onClick='toggleBox("Output-1650828616", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1650828616" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1650828616">
+×
+Question created successfully<br/>
+×
+Question created successfully<br/>
+×
+Question created successfully<br/>
+×
+Question created successfully<br/>
+×
+Question created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>113</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaQuestionCreate@19fb8826</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaTenantCreate.YTenantCreate()'><b>YTenantCreate</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaTenantCreate<br/>
+<a href="#Output-931003277" onClick='toggleBox("Output-931003277", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-931003277" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-931003277">
+Tenant 'Augfullscript' Created successfully with Active status.<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaTenantCreate@435871cb</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaUserimport.YUserImport()'><b>YUserImport</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaUserimport<br/>
+<a href="#Output-153500756" onClick='toggleBox("Output-153500756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-153500756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-153500756">
+×
+File uploaded successfully<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaUserimport@609640d5</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaSkill.YCategoryCreate()'><b>YCategoryCreate</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaSkill<br/>
+<a href="#Output-1371182382" onClick='toggleBox("Output-1371182382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1371182382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1371182382">
+AugFullScript: Category created with 1 Skills<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaSkill@4fc5e095</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.yakshalogin.YLogin()'><b>YLogin</b><br>Test class: com.caiiht.fusion.selenium.yaksha.yakshalogin<br/>
+<a href="#Output-150208546" onClick='toggleBox("Output-150208546", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150208546" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150208546">
+Login succesfully- Home page displayed<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.caiiht.fusion.selenium.yaksha.yakshalogin@60dce7ea</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaSkill.YSkillCreate()'><b>YSkillCreate</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaSkill<br/>
+<a href="#Output-1655562261" onClick='toggleBox("Output-1655562261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1655562261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1655562261">
+FullScript : Skill Created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaSkill@4fc5e095</td></tr>
+<tr>
+<td title='com.caiiht.fusion.selenium.yaksha.YakshaAssessment.YAssessmentSchedule()'><b>YAssessmentSchedule</b><br>Test class: com.caiiht.fusion.selenium.yaksha.YakshaAssessment<br/>
+<a href="#Output-648378207" onClick='toggleBox("Output-648378207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-648378207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-648378207">
+C:\Users\rameshg\seleneium4Example\seleniumScriptsRegression\Input\Tenant\Users_Bulk_Upload.xlsx is Schedule link of :AutoTest Testnew520<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>com.caiiht.fusion.selenium.yaksha.YakshaAssessment@27953a83</td></tr>
+</table><p>
+</body>
+</html>
